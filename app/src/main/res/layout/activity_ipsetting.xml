@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IPsettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/etSettingIP"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:digits="1234567890."
+            android:ems="10"
+            android:hint="카메라에 해당하는 IP를 설정하세요."
+            android:inputType="number"
+            android:maxLength="15"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btSettingIP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:textColor="#ffffff"
+                android:text="CAM1" />
+
+            <Button
+                android:id="@+id/btSettingIP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:textColor="#ffffff"
+                android:text="CAM2" />
+
+            <Button
+                android:id="@+id/btSettingIP3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:textColor="#ffffff"
+                android:text="CAM3" />
+
+            <Button
+                android:id="@+id/btSettingIP4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:textColor="#ffffff"
+                android:text="CAM4" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:id="@+id/tvCamIPTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera1 IP"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvIP1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="CAM 1 IP"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvCamIPTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera2 IP"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvIP2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="CAM 2 IP"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvCamIPTitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera3 IP"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvIP3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="CAM 3 IP"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvCamIPTitle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera4 IP"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvIP4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="CAM 4 IP"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

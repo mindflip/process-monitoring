@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CamActivity">
+
+    <TextView
+        android:id="@+id/tvCamTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Text" />
+
+    <TextView
+        android:id="@+id/tvIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="IP address" />
+
+    <WebView
+        android:id="@+id/wvCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8">
+
+    </WebView>
+
+    <Button
+        android:id="@+id/btCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffff"
+        android:text="@string/btCapture" />
+
+</LinearLayout>

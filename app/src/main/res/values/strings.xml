@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">공정 모니터링</string>
+    <string name="default_notification_channel_id">notice channel id</string>
+    <string name="default_notification_channel_name">notice channel name</string>
+    <string name="tvMonTitle">공정 모니터링</string>
+    <string name="tvCompTitle">수조 혼탁도 모니터링</string>
+    <string name="tvCalTitle">산화 피막 형성률</string>
+    <string name="tvSetIPTitle">카메라 IP 설정</string>
+    <string name="tvMainTitle">항목을 선택하세요</string>
+    <string name="btCapture">캡처 / 수조 불일치도 체크</string>
+</resources>

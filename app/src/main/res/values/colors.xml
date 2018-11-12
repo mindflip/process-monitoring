@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#77c2b0</color>
+    <color name="colorPrimaryDark">#77c2b0</color>
+    <color name="colorAccent">#77c2b0</color>
+
+    <color name="pressed1">#77c2b0</color>
+    <color name="pressed2">#77c2b0</color>
+
+    <color name="focused1">#77c2b0</color>
+    <color name="focused2">#77c2b0</color>
+
+    <color name="default1">#77c2b0</color>
+    <color name="default2">#77c2b0</color>
+
+    <color name="stroke">#00000000</color>
+
+</resources>
